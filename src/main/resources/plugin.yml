@@ -1,3 +1,7 @@
 name: SuzakuCore
 version: 0.0.0
+authors: ['Genbuchan']
+depend: [ProtocolLib]
 main: studio.genbu.suzakucore.SuzakuCore
+
+load: STARTUP
