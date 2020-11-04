@@ -23,11 +23,11 @@ import studio.genbu.suzakucore.SuzakuCore;
  * @author Genbuchan
  * @version 0.0.0
  */
-public class Render {
+public class RenderUtils {
 
   private static ProtocolManager protocolManager = SuzakuCore.getProtocolManager();
 
-  private Render() {
+  private RenderUtils() {
 
   }
 
