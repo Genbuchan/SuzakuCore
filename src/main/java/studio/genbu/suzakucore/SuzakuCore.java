@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class SuzakuCore extends JavaPlugin {
 
-  public ProtocolManager protocolManager;
+  private ProtocolManager protocolManager;
   
   @Override
   public void onEnable() {
