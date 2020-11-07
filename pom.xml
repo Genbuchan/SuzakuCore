@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>studio.genbu</groupId>
-  <artifactId>SuzakuCore</artifactId>
+  <artifactId>suzakucore</artifactId>
   <version>0.0.0</version>
 
   <name>SuzakuCore</name>
@@ -93,4 +93,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Genbuchan's Private Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/Genbuchan/maven-repo-private</url>
+    </repository>
+  </distributionManagement>
 </project>
