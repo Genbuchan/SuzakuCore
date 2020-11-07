@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class SuzakuCore extends JavaPlugin {
 
+  private static SuzakuCore suzakuCore;
   private ProtocolManager protocolManager;
   
   /**
@@ -31,7 +32,7 @@ public class SuzakuCore extends JavaPlugin {
    * @return SuzakuCore クラスのインスタンス
    */
   public static SuzakuCore getInstance() {
-    return getInstance();
+    return suzakuCore;
   }
 
   /**
@@ -39,7 +40,7 @@ public class SuzakuCore extends JavaPlugin {
    * @return ProtocolManager
    */
   public static ProtocolManager getProtocolManager() {
-    return getInstance().protocolManager;
+    return suzakuCore.protocolManager;
   }
 
 }
